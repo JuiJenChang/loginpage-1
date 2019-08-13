@@ -1,33 +1,103 @@
-.App {
-  text-align: center;
+body{
+  background: #9B5B40; 
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.header{
+  display: flex;
+  justify-content: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.content{
+  background: rgb(70, 82, 122);
+  width: 350px;
+  height: 600px;
+  margin-top: 50px;
+  box-shadow: 8px 8px 60px rgb(243, 216, 94);
+  border-radius: 5px;
+}
+.notsign{
+  float: right;
+  background: rgb(64, 155, 155);
+  border-style: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.sign{
+  float: right;
+  background: rgb(75, 72, 72);
+  border-style: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.container{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+p{
+  display: inline;
+  color: #ffffff;
 }
+.title{
+  margin-top: 80px;
+  margin-left: 40px;
+  font-size: 20px;
+  color: #ffffff;
+}
+.title-p1{
+  cursor: pointer;
+}
+.title-p2{
+  padding-left: 10px;
+  border-bottom: 3px solid rgb(64, 155, 155);
+  cursor: pointer;
+}
+.title-span{
+  padding-left: 10px;
+}
+label{
+  margin-left: 20px;
+  margin-top: 50px;
+  font-size: 15px;
+  color: #ffffff;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+input{
+  width: 300px;
+  margin-left: 20px;
+  margin-top: 30px;
+  border-style: none;
+  border-bottom: solid 1px #ffffff;
+  background: rgb(70, 82, 122);
+  color: #ffffff;
+  font-size: 15px;
+}
+.input-cb{
+  border-style: none;
+  width: 15px;
+  height: 15px;
+}
+.cb-span{
+  border-bottom: 2px solid rgb(64, 155, 155);
+}
+.lb{
+  margin-left: 70px;
+  margin-top: 30px;
+  color: #ffffff;
+  background: rgb(64, 155, 155);
+  border-style: none;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.lb-p{
+  margin-left: 10px;
+  border-bottom: 2px solid rgb(64, 155, 155);
 }
